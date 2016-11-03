@@ -5,17 +5,22 @@
 	 blah blah
 =end
 
+#sample of a for loop in ruby
+arr = ["I", "code", "therefore", "I", "am"]
+for i in 0...arr.count
+  puts arr[i]
+end
+
 puts "Hello"
 puts "Coding"
 puts "Dojo"
-# note: puts automaticaly displays words neatly on a new line
+# note: puts automatically displays words neatly on a new line
 
 print "Hello"
 print "Joy"
-# note: print doesnt show data neatly
+# note: print doesnt show data neatly, but on one line i.e., HelloJoy
 
-
-#these block below get run in order before any code you've written previously...
+#these blocks below get run in order before any code you've written previously...
 BEGIN {
 	puts "This is in the begin block"
 }
@@ -58,3 +63,6 @@ puts "The value of z is %d" % [z]
 puts "The value of z is %d" % z
 
 puts "I am 5'10\" tall"
+
+#more fun with puts
+3.times { puts "WOW" } #this returns WOW 3 x
