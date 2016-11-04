@@ -45,4 +45,6 @@ puts z.empty?
 
 puts z.has_key?(:first_name)
 
-puts z.has_value?("Joy")
+puts z.has_value?("Joy") # => true
+
+puts z.has_value?("Jennifer") # => false
