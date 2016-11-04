@@ -1,6 +1,5 @@
 # Iterators
 # .any? {|obj| block} --> true or false
-
 ["ant", "bear", "mouse"].any? {|word| word.length >= 3}  #=> true
 
 ###########################################
