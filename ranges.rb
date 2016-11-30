@@ -1,5 +1,4 @@
 # Ranges #
-
 x = (1..5)
 
 puts "Class name is: #{x.class}"

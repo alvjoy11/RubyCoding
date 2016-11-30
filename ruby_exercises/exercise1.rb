@@ -11,6 +11,9 @@ for i in 0...arr.count
   puts arr[i]
 end
 
+# .. from 0 to last point
+# ... from value 0 to not include the last
+
 puts "Hello"
 puts "Coding"
 puts "Dojo"
@@ -48,7 +51,7 @@ puts last_name
 
 puts "How are you doing ", first_name, last_name + "?"
 
-puts "How are you doing "+first_name+" "+last_name+ "?"
+puts "What's up "+first_name+" "+last_name+ "?"
 
 puts "My first name is #{first_name} and my last name is #{last_name}"
 

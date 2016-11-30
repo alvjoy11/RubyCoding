@@ -6,7 +6,7 @@ puts "Your last name is Dojo" if x["last_name"].eql? "Dojo"
 
 y = {:first_name => "Melanie", :last_name => "Smith"}
 
-puts "Y is ", y
+puts "Y is ", y #Y is {:first_name=>"Melanie", :last_name=>"Smith"}
 puts y[:first_name], y[:last_name]
 
 puts "Deleting :first_name"

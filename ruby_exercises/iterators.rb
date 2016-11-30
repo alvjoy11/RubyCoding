@@ -13,7 +13,7 @@
 (1..5).collect {|i| i*i} #2.2.1 :001 > (1..5).collect {|i| i*i}
  # => [1, 4, 9, 16, 25]
 
- # in this example each index is muliplied by itself, i.e., 1 * 1 = 1 .. etc
+ # in this example each value is muliplied by itself, i.e., 1 * 1 = 1 .. etc
 
 ###########################################
  (1..4).collect {"cat"} #prints "cat" in an array from indexes 0 to 3

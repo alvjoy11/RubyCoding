@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 a = ["Joy", "Kira", "Sallie", "Brandon", "Amir"]
 
 puts a.fetch(2) # Sallie
@@ -21,7 +20,7 @@ puts a.insert(-1, "Samantha") #the 2nd param gets added to the end of the array 
 b = %w{bunny fish rooster}; puts b.values_at(0,1).join(' and ') # --> bunny and fish
 
 # Challenges
-=======
+
 a = ["Joy", "Kira", "Sallie", "Nick"]
 b = [5,6,7,8,9,23,4]
 c = ["Go to bed Joy!", 1]
@@ -61,7 +60,7 @@ a.delete("Nick")
 puts "length of a is #{a.length}"
 
 # Challenge
->>>>>>> 76aa39724dd09f2934cfcdf931aa1f55e1e204a0
+
 # Try the following methods at least once either on a separate Ruby file or on irb.
 #
 # .at or .fetch

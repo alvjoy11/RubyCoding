@@ -50,7 +50,7 @@ String.methods != "instance".methods
 String.new("I am an instance of the String class")
 
 # String Interpolation
-# So when should we use double quotes and when should we use single quotes? Is there even a difference? In most cases, it doesn't matter if we use single quotes or double quotes. However, one key difference is that we cannot perform string interpolation on single quotes. What is string interpolation? It is a way to inject bits of Ruby into an instance of a String.
+# So when should we use double quotes and when should we use single quotes? In most cases, it doesn't matter if we use single quotes or double quotes. However, one key difference is that we cannot perform string interpolation on single quotes. What is string interpolation? It is a way to inject bits of Ruby into an instance of a String.
 
 "24 plus 8 is #{24 + 8}" # => "24 plus 8 is 32"
 '24 plus 8 is #{24 + 8}' # => "24 plus 8 is #{24 + 8}"
